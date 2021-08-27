@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Times New Roman", Times, serif;
+    background-image: url('./Images/hill.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+    
+}
+
+.searchField .searchBar{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 16px 16px;
+    padding: 10px;
+    
+
+}
+.searchField {
+    width: 50%;
+    margin-left: 120px;
+    margin-top: 10px;
+    color: beige;
+}
+
+.weather-text{
+    margin-top: 100px;
+    text-align: center;
+    color:white;
+    font-weight: 300;
+    font-size: 27px;
+    
+}
+
+.country{
+    margin: 30px 0 30px 0;
+}
+.date{
+    margin: 30px 0 30px 0;
+    font-style: italic;
+}
+.weather{
+    margin: 30px 0 30px 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+.temperature{
+    position: relative;
+    display: inline-block;
+    color: black;
+    margin: 30px 0 30px 0;
+    text-shadow: 2px 2px rgba(50, 50, 50, 0.5);
+    border-radius: 15px;
+    background-color: rgb(189, 186, 186);
+    font-size: 35px;
+    
+    padding: 10px;
+}
+.minmax{
+    margin-top: 20px;
+    
+    
+}
+.min{
+    margin-right: 50px;
+    display: inline-block;
+    background-color: rgb(189, 186, 186);
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+}
+.max{
+    margin-left: 50px;
+    display: inline-block;
+    background-color: rgb(189, 186, 186);
+    color: black;
+    border-radius: 15px;
+    padding: 10px;
+}
+.image{
+    background-color: rgb(189, 186, 186);;
+    width: 80px ;
+    border-radius: 15px;
+
+}
